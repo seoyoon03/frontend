@@ -1,0 +1,64 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Vercel
+.vercel/
+.vercel_build_output/
+
+# Production build folders
+dist/
+
+# Local env files (do not commit secrets)
+# Keep an example env if present: !.env.example
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests
+coverage/
+jest-cache/
+
+# Caches
+.cache/
+.parcel-cache/
+.next/cache/
+.eslintcache
+
+# Storybook
+node_modules/.cache/storybook
+
+# Misc
+*.tgz
+*.local
+
+# Keep lockfiles committed (do not ignore pnpm-lock.yaml)
